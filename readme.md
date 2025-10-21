@@ -49,6 +49,11 @@
     - git log - Lleva un registro de lo que hemos realizado
 
 14 - Conflictos en git
-    - 
+    - realizamos un merge de la rama con el comando git merge <nombre rama>
+    - si tenemos conflicto lo resolvemos 
+    - realizamos un commit (sin mensaje)
+    - por último realizamos un git merge <nombre de la rama>
+
+
 
 
