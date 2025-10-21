@@ -72,7 +72,12 @@
 20 - GIT REVERT
     - Deshace los cambios realizados por un commit anterior creando un commit completamente nuevo, no altera el historial de commits
 
-    
+21 - GIT RM
+    - Con esto le decimos a git que deje de seguir los cambios de un fichero, eleminandolo de manera efectiva de su índice de trabajo.
+    Hay varias opciones:
+        - -cached -> mantiene el archivo en la working directory y como untracked.
+        - -recursive.
+
 
 
 
