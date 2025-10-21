@@ -54,6 +54,10 @@
     - realizamos un commit (sin mensaje)
     - por último realizamos un git merge <nombre de la rama>
 
+17 - Otras utilidades de Git
+    - git stash - Guarda los cambios de forma temporal, nos permite cambiar de rama para resolver algo en otra rama.
+    
+
 
 
 
