@@ -55,7 +55,23 @@
     - por último realizamos un git merge <nombre de la rama>
 
 17 - Otras utilidades de Git
-    - git stash - Guarda los cambios de forma temporal, nos permite cambiar de rama para resolver algo en otra rama.
+    - git stash - Guarda los cambios de forma temporal, nos permite cambiar de rama para resolver algo en otra rama. (esto se queda guardado y podemos movernos)
+    - para devolver los cambios que hemos guardado realizamos el comando "git stash apply"
+    pero este no borra el stash. 
+    - Si queremos que lo borre del stash realizamos el sigueinte comando "git stash pop"
+
+18 - Estados de un fichero en git 
+    - Untracked -> Git no tiene registro sobre el fichero
+    - Modified -> Git conoce el fichero y detecta que tiene cambios con respecto al último commit
+    - Staged -> El fichero con cambios está listo para añadirse a un commit
+    - Commited -> El fichero con cambios ha sido guardado dentro de una revisión
+
+19 -  GIT RESET 
+    - Sirve para sacar un fichero que no queremos hacer commit, comando git reset HEAD <NOMBRE DEL FICHERO>
+
+20 - GIT REVERT
+    - Deshace los cambios realizados por un commit anterior creando un commit completamente nuevo, no altera el historial de commits
+
     
 
 
