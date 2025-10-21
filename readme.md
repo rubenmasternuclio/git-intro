@@ -40,5 +40,15 @@
     - git pull - Nos trae los cambios que haya en el remoto
     - git fetch - No dice los cambios que hay pero no los actualiza
 
+12 - Fusionar una rama con PULL REQUEST
+    - se hace desde el repositorio remoto
+    - luego nos pedirá hacer un merge 
+
+13 - Estado de git
+    - git status - Nos dice el estado 
+    - git log - Lleva un registro de lo que hemos realizado
+
+14 - Conflictos en git
+    - 
 
 
